@@ -6,7 +6,7 @@ public class ConnectionFactory {
         System.out.println("Abrindo conexão com o banco de dados...");
     }
 
-    public void executeSQL(){
+    public void executeSQL(String sql){
         System.out.println("Execuntando SQL no BD");
     }
 

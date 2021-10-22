@@ -7,7 +7,7 @@ public class App {
         ConnectionFactory connectionFactory = new ConnectionFactory();
 
         connectionFactory.openConnection();
-        connectionFactory.executeSQL();
+        connectionFactory.executeSQL("select * from user");
         connectionFactory.closeConnection();
     }
 }
