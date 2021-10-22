@@ -9,4 +9,8 @@ public class GenericConveter {
     public String conveterToXml(String xml){
         return xml.toLowerCase();
     }
+
+    public void teste(){
+        System.out.println("teste");
+    }
 }
