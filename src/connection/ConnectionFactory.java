@@ -7,10 +7,10 @@ public class ConnectionFactory {
     }
 
     public void executeSQL(String sql){
-        System.out.println("Execuntando SQL no BD");
+        System.out.println("Executando SQL no BD");
     }
 
-    public void closeConnection(){
-        System.out.println("Fechando a conexão com o BD...");
+    public void closeConnection(long timeout){
+        System.out.println("Fechando a conexão com o BD por timed out de " +timeout);
     }
 }

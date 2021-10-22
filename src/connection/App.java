@@ -8,6 +8,7 @@ public class App {
 
         connectionFactory.openConnection();
         connectionFactory.executeSQL("select * from user");
-        connectionFactory.closeConnection();
+        connectionFactory.closeConnection(3000l);
+
     }
 }
